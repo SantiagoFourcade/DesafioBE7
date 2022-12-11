@@ -2,11 +2,25 @@
   "name": "desafiobe7",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoFourcade/DesafioBE7.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiagoFourcade/DesafioBE7/issues"
+  },
+  "homepage": "https://github.com/SantiagoFourcade/DesafioBE7#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "knex": "^2.3.0",
+    "modules": "^0.4.0",
+    "mysql2": "^2.3.3"
+  }
 }
